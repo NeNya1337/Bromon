@@ -1,0 +1,77 @@
+.content, .controls{
+	display: inline-block;
+}
+body{
+	display: flex;
+}
+
+#spawns td{
+	border: 1px solid black;
+	border-radius: 10px;
+	min-width: 80px;
+}
+
+
+#spawns {
+	border-radius: 10px;
+	margin: 1em;
+	box-shadow: 2px 2px 3px black;
+}
+
+table * {
+  box-sizing: border-box;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td {
+  width: 25px;
+  border-radius: 2px;
+  text-align: center;
+}
+tr {
+  height:25px;
+}
+.p{
+	background-image: url("src/path.png");
+}
+.f {
+    background-image: url("src/tree.png");
+}
+.b {
+	background-image: url("src/grass.png");
+}
+.su {
+	background-image: url("src/stepup.png");
+} 
+.sd {	
+	background-image: url("src/stepdown.png");
+}
+.sr {
+	background-image: url("src/stepright.png");
+}
+.sl {
+	background-image: url("src/stepleft.png");
+}
+.w {
+	background-image: url("src/wall.png");
+}
+.x {
+    background-image: url("src/exit.png");
+}
+.m {
+	background-image: url("src/signpost.png");
+}
+.u {
+	background-image: url("src/water.png");
+}
+.ux {
+	background-image: url("src/waterexit.png");
+}
+.h {
+	background-image: url("src/haus.png");
+}
+.fe {
+	background-image: url("src/fence.png");
+}
